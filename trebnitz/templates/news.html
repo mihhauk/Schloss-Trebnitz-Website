@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% for article in articles %} 
+<h2><a>{{article.title}}</a></h2>
+<p class="post-info">
+	Posted by {{article.author}} | Tags: {% for tag in article.tags.all %} {{tag}} {% endfor %}
+</p>
+<p>{{article.text}}</p>
+<p class="postmeta">
+	<span class="date">{{article.publication_date}}</span>
+</p>
+{% endfor %}
+<div class="clear">
+	&nbsp;
+</div>
+{% endblock %} 
