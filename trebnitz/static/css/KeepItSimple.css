@@ -14,7 +14,7 @@ body {
 	font: 11px/165% 'Lucida Grande', Verdana, Helvetica, sans-serif;
 	color: #666666; 	
 	margin: 0; padding: 0 0 50px 0; 
-	background: #F6F5F5 url(images/bg.gif) repeat-x; 
+	background: #F6F5F5 url(../images/bg.gif) repeat-x; 
 	text-align: center;
 }
 /* Links */
@@ -94,7 +94,7 @@ blockquote {
 	margin: 10px;
  	padding: 10px 10px 10px 32px;  
    border: 1px solid #F0F0F0;
-	background: #f8f8f8 url(images/quote.gif) no-repeat 12px 12px;
+	background: #f8f8f8 url(../images/quote.gif) no-repeat 12px 12px;
 	font-weight: normal;
 	font-size: 17px;
 	line-height: 1.5em;
@@ -185,20 +185,20 @@ input.button {
 }
 #content-wrapper {
 	margin: 0 auto;	
-	background: #fff url(images/content-bg.gif) repeat-y center top;	
+	background: #fff url(../images/content-bg.gif) repeat-y center top;	
 	padding-bottom: 35px;
 	padding-top: 5px;		
 	overflow: auto;
 }
 #header-wrap {
 	width: 100%;
-	background: #fff url(images/bg.gif) repeat-x ;	
+	background: #fff url(../images/bg.gif) repeat-x ;	
 	margin: 0; padding: 0; 
 }
 #header {
 	position: relative;
 	margin: 0 auto;
-	background: url(images/border.gif) repeat-x left bottom; 	
+	background: url(../images/border.gif) repeat-x left bottom; 	
 	height: 275px;	
 }
 #header h1#logo-text { margin: 0; padding: 0; }
@@ -231,7 +231,7 @@ input.button {
 }
 #header #header-image {
 	position: absolute;
-	background: url(images/header-image.gif) no-repeat;
+	background: url(../images/header-image.gif) no-repeat;
 	width: 371px;
 	height: 263px;	
 	right: 10px; top: 0;	
@@ -244,7 +244,7 @@ input.button {
 	padding: 0; margin: 0;
 	border: none;
 	width: 270px; height: 33px;
-	background: #F5F4F3 url(images/header-search.gif) no-repeat;	
+	background: #F5F4F3 url(../images/header-search.gif) no-repeat;	
 	z-index: 999999;
 }
 #header form#quick-search p {

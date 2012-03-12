@@ -15,8 +15,11 @@ urlpatterns = patterns('',
 
      url(r'^admin/', include(admin.site.urls)),
      url(r'^news/', news),
-#     url(r'^static/(?P<path>.*)$', 
-#         'django.views.static.serve', 
-#         {'document_root': settings.MEDIA_ROOT},
-#         {'show_indexes': True}),
 )
+
+if settings.DEBUG:
+    urlpatterns += patterns('',
+        (r'^mymedia/(?P<path>.*)$', 'django.views.static.serve',
+         {'document_root':     settings.MEDIA_ROOT}),
+    )
+
